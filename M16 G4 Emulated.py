@@ -45,7 +45,7 @@ InOutROM = [5]
 InOutIndex = -1
 
 skip = True
-ROMData = Path("C:/Users/Karamat/Python prjects/HexDump.txt").read_text() if skip else False
+ROMData = Path("").read_text() if skip else False
 
 ColourLookup = []
 for i in range(256):
