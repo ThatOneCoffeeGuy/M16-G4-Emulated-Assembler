@@ -1,8 +1,8 @@
 from pathlib import Path
 from struct import pack
 
-SrcFile = "C:/Users/Karamat/Python prjects/MyProgram.asm"
-DestFile = "C:/Users/Karamat/Python prjects/HexDump.txt"
+SrcFile = ""
+DestFile = ""
 
 skip = True
 program = Path(SrcFile).read_text() if skip else False
